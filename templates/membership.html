@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Plans - PowerFit Gym</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">POWERFIT</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/membership">Membership</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Membership Hero Section -->
+    <section class="membership-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Choose Your Plan</h1>
+            <p>Flexible membership options designed to fit your lifestyle and goals</p>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <div class="container">
+        <h2 class="section-title">Membership Plans</h2>
+        <p class="section-subtitle">Invest in yourself with the perfect plan for your fitness journey</p>
+        
+        <div class="pricing-grid">
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <div class="price">$29<span>/month</span></div>
+                <ul>
+                    <li>Access to gym equipment</li>
+                    <li>Locker room facilities</li>
+                    <li>Free fitness assessment</li>
+                    <li>Mobile app access</li>
+                    <li>Standard hours (6 AM - 10 PM)</li>
+                </ul>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+
+            <!-- Premium Plan (Featured) -->
+            <div class="pricing-card featured">
+                <div class="popular-badge">MOST POPULAR</div>
+                <h3>Premium</h3>
+                <div class="price">$59<span>/month</span></div>
+                <ul>
+                    <li>Everything in Basic</li>
+                    <li>24/7 gym access</li>
+                    <li>Unlimited group classes</li>
+                    <li>2 personal training sessions/month</li>
+                    <li>Nutrition consultation</li>
+                    <li>Guest pass (2 per month)</li>
+                </ul>
+                <a href="#" class="btn btn-white">Get Started</a>
+            </div>
+
+            <!-- Elite Plan -->
+            <div class="pricing-card">
+                <h3>Elite</h3>
+                <div class="price">$99<span>/month</span></div>
+                <ul>
+                    <li>Everything in Premium</li>
+                    <li>8 personal training sessions/month</li>
+                    <li>Priority class booking</li>
+                    <li>Spa & recovery services</li>
+                    <li>Customized meal plans</li>
+                    <li>Free gym merchandise</li>
+                </ul>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <h2 class="section-title">Additional Services</h2>
+        <p class="section-subtitle">Enhance your membership with premium add-ons</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-user-shield service-icon"></i>
+                <h3>Personal Training</h3>
+                <p class="service-price">$45/session</p>
+                <p>One-on-one coaching with certified trainers. Customized workout programs designed specifically for your goals and fitness level.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-utensils service-icon"></i>
+                <h3>Nutrition Coaching</h3>
+                <p class="service-price">$80/month</p>
+                <p>Personalized meal planning and dietary guidance. Weekly check-ins with licensed nutritionists to optimize your results.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-hands-holding service-icon"></i>
+                <h3>Massage Therapy</h3>
+                <p class="service-price">$65/session</p>
+                <p>Sports massage and recovery treatments. Help reduce muscle tension, improve flexibility, and speed up recovery time.</p>
+            </div>
+        </div>
+
+        <!-- Benefits Section -->
+        <div class="benefits-section">
+            <h2 class="section-title">All Memberships Include</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Free Wi-Fi throughout facility</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Secure locker storage</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Complimentary towel service</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Free parking</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Clean & sanitized equipment</span>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>No long-term contracts</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>Ready to Start Your Transformation?</h2>
+            <p>Join PowerFit today and take the first step towards a healthier, stronger you</p>
+            <a href="#" class="btn btn-large">Sign Up Now</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PowerFit Gym. HASNAIN | BSE-304</p>
+    </footer>
+</body>
+</html>

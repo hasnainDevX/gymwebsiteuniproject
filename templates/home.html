@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Gym - Transform Your Body</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">POWERFIT</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/membership">Membership</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Join the ultimate fitness experience with state-of-the-art equipment and expert trainers</p>
+            <a href="/membership" class="btn">Start Your Journey</a>
+        </div>
+    </section>
+
+    <!-- Gym Highlights -->
+    <div class="container">
+        <h2 class="section-title">Why Choose PowerFit?</h2>
+        <p class="section-subtitle">Experience excellence in every workout</p>
+        
+        <div class="card-grid">
+            <div class="card">
+                <i class="fas fa-dumbbell card-icon"></i>
+                <h3>Modern Equipment</h3>
+                <p>Access to cutting-edge fitness equipment from leading brands. Our machines are regularly maintained and updated to ensure the best workout experience.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user-tie card-icon"></i>
+                <h3>Expert Trainers</h3>
+                <p>Certified personal trainers with years of experience ready to guide you. Get personalized workout plans tailored to your fitness goals.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-clock card-icon"></i>
+                <h3>24/7 Access</h3>
+                <p>Work out on your schedule with round-the-clock gym access. Whether you're an early bird or night owl, we're always open for you.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-apple-alt card-icon"></i>
+                <h3>Nutrition Guidance</h3>
+                <p>Comprehensive meal plans and nutrition counseling to complement your training. Achieve your goals faster with proper nutrition support.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-users card-icon"></i>
+                <h3>Group Classes</h3>
+                <p>From yoga to HIIT, join energizing group fitness classes. Connect with like-minded individuals while achieving your fitness goals.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-trophy card-icon"></i>
+                <h3>Results Driven</h3>
+                <p>Proven track record of helping members achieve their fitness goals. Join thousands of satisfied members who transformed their lives.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Success Stories</h2>
+            <p class="section-subtitle">Real transformations from real members</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"PowerFit completely transformed my life. The trainers are incredibly supportive, and the facilities are top-notch. I've lost 30 pounds and gained so much confidence!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80" alt="Member">
+                        <div class="author-info">
+                            <h4>Jessica Martinez</h4>
+                            <p>Member since 2023</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"Best gym I've ever joined! The 24/7 access fits perfectly with my schedule, and the equipment is always well-maintained. Highly recommend to anyone serious about fitness."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80" alt="Member">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Member since 2022</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">"The group classes are amazing! I've made great friends and the instructors keep every session fun and challenging. This gym has become my second home."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80" alt="Member">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Member since 2024</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PowerFit Gym. MADE BY HASNAIN BSE-304</p>
+    </footer>
+</body>
+</html>
